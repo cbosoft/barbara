@@ -1,0 +1,15 @@
+services:
+  db:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: foo
+    networks:
+      barbnet:
+  server:
+    build: ./barbara_server
+    depends_on:
+      - db
+    networks:
+      barbnet:
+networks:
+  barbnet:
