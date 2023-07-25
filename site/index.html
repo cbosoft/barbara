@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BARBARA</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,500;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+
+            <div class="title">
+                <h1>BARBARA<hr /></h1>
+            </div>
+            <div class="content subtitle">
+                <span id="spaceStat">3 spaces</span>
+                ·
+                <a href="#">New Space</a>
+                &#65372;
+                <span id="jobStat">512 jobs</span>
+                ·
+                <a href="#">Jobs</a>
+            </div>
+
+            <div class="vspace"></div>
+            <div class="vspace"></div>
+
+            <h2>Spaces<hr /></h2>
+            <div class="content">
+                <ul>
+                    <li>space1</li>
+                </ul>
+            </div>
+
+            <div class="vspace"></div>
+            <div class="vspace"></div>
+
+            <h2>New Space<hr /></h2>
+            <div class="content">
+                <label for="spaceName">Name:</label>
+                <input type="text" name="spaceName" id="spaceName" placeholder="$_space_name"><br />
+                <p><b>Parameters:</b></p>
+                <div id="paramList" style="margin-left: 1cm;">
+                    ⋆ Vary
+                    <input type="text" name="paramName1" id="paramName1" placeholder="$_parameter">
+                    from
+                    <input type="text" name="lb1" id="lb1" placeholder="$_lower_bound">
+                    to
+                    <input type="text" name="ub1" id="ub1" placeholder="$_upper_bound">
+                    .
+                <br />
+                </div>
+                <br />
+                <div class="subtitle">
+                    <a href="#" class="button">+</a>
+                    <a href="#" class="button">-</a>
+                </div>
+                <div class="right-align">
+                    <a href="#" class="button">Add</a>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
