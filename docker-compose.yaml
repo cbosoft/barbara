@@ -11,5 +11,9 @@ services:
       - db
     networks:
       barbnet:
+      hostnet:
 networks:
   barbnet:
+  hostnet:
+    external: True
+    name: host
